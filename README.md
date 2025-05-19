@@ -1,8 +1,11 @@
-# React + Vite
+# World Wise 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+World Wise is a React-based project built with Vite. It is designed to provide users with an interactive experience for exploring cities and countries, managing geolocation data, and navigating through a protected application layout.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Authentication**: Login functionality with protected routes.
+- **City and Country Management**: Add, view, and manage cities and countries.
+- **Geolocation**: Fetch and display user location using the browser's geolocation API.
+- **Interactive Map**: Integration with Leaflet for map-based interactions.
+- 
