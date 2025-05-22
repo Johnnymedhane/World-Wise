@@ -1,7 +1,9 @@
 import { createContext, useContext, useEffect, useReducer, useState } from "react";
 
 
-const BASE_URL = "http://localhost:8000";
+//  const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://worldwise-backend-mnr7.onrender.com";
+
 
 const citiesContext = createContext();
 
@@ -94,7 +96,7 @@ function reducer(state, action) {
       }, []) 
     
     
-    async function getCity(id) { console.log(id, currentCity.id);
+    async function getCity(id) { 
            if(Number(id) === currentCity.id) return;
           dispatch({ type: "loading" });
             try {

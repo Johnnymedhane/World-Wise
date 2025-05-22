@@ -83,3 +83,22 @@ input:focus {
 .test{
   background-color: var(--color-brand--2);
 }
+
+
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  body {
+    font-size: 1.6rem;
+  }
+  label {
+    font-size: 1.4rem;
+  }
+  input,
+  textarea {
+    font-size: 1.4rem;
+  }
+  
+}

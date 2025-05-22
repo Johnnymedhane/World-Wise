@@ -9,7 +9,8 @@ import { useCities } from '../contexts/CitiesContext';
 
 function CountriesList() {
     const { cities, isLoading } = useCities();
-
+    console.log(cities)
+   
     if (isLoading) return <Spinner />;
     if ( !cities.length) return <Message message="Add your country by clicking on a country on the map"/>;
     
@@ -18,11 +19,12 @@ function CountriesList() {
             return [...arr, { country: city.country, emoji: city.emoji }];
         else return arr
     }
-         , [])
+        , [])
+    console.log(countries)
     return (
         <ul className={styles.countriesList}>
             {countries.map((country) => (
-              <CountryItem  country={country} key={country}>  </CountryItem> 
+              <CountryItem  country={country} >  </CountryItem> 
             ))}
 </ul>
     )

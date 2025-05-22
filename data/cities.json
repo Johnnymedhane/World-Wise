@@ -1,25 +1,99 @@
 {
   "cities": [
     {
-      "id": "1124",
-      "cityName": "Quintana Redonda",
-      "date": "2025-05-18T08:57:17.144Z",
+      "id": "46fa",
+      "cityName": "Kerzaz",
+      "country": "Algeria",
+      "date": "2025-05-21T10:27:46.509Z",
       "notes": "",
-      "emoji": "🇪🇸",
+      "emoji": "🇩🇿",
       "position": {
-        "lat": "41.623655390686395",
-        "lng": "-2.6157573721373315"
+        "lat": "30.63138471500951",
+        "lng": "0.1500186332591591"
       }
     },
     {
-      "id": "79c3",
-      "cityName": "Miedes de Aragon",
-      "date": "2025-05-18T10:16:05.782Z",
+      "id": "35de",
+      "cityName": "Bayinguoleng Menggu Zizhizhou",
+      "country": "China",
+      "date": "2025-05-21T10:27:51.446Z",
+      "notes": "",
+      "emoji": "🇨🇳",
+      "position": {
+        "lat": "41.105555162556996",
+        "lng": "89.79352020406249"
+      }
+    },
+    {
+      "id": "2781",
+      "cityName": "Nura",
+      "country": "Kazakhstan",
+      "date": "2025-05-21T10:37:52.295Z",
+      "notes": "",
+      "emoji": "🇰🇿",
+      "position": {
+        "lat": "49.33184152562416",
+        "lng": "69.36006683068376"
+      }
+    },
+    {
+      "id": "13bf",
+      "cityName": "Haixi",
+      "country": "China",
+      "date": "2025-05-21T10:38:46.408Z",
+      "notes": "",
+      "emoji": "🇨🇳",
+      "position": {
+        "lat": "37.25156508073635",
+        "lng": "96.8305855655855"
+      }
+    },
+    {
+      "id": "dc8b",
+      "cityName": "Tapanahony",
+      "country": "Suriname",
+      "date": "2025-05-21T10:38:58.002Z",
+      "notes": "",
+      "emoji": "🇸🇷",
+      "position": {
+        "lat": "3.250780235957547",
+        "lng": "-54.89633333310241"
+      }
+    },
+    {
+      "id": "9bb6",
+      "cityName": "Befale",
+      "country": "Congo (the Democratic Republic of the)",
+      "date": "2025-05-21T10:39:19.720Z",
+      "notes": "",
+      "emoji": "🇨🇩",
+      "position": {
+        "lat": "0.0830031653046723",
+        "lng": "22.076886607457112"
+      }
+    },
+    {
+      "id": "90b8",
+      "cityName": "Itigi",
+      "country": "Tanzania, the United Republic of",
+      "date": "2025-05-21T10:39:45.851Z",
+      "notes": "",
+      "emoji": "🇹🇿",
+      "position": {
+        "lat": "-7.314316127593926",
+        "lng": "33.87808065497143"
+      }
+    },
+    {
+      "id": "12aa",
+      "cityName": "Zapardiel de la Ribera",
+      "country": "Spain",
+      "date": "2025-05-21T12:35:58.396Z",
       "notes": "",
       "emoji": "🇪🇸",
       "position": {
-        "lat": "41.26484198561839",
-        "lng": "-1.4307968194177234"
+        "lat": "40.26715142450117",
+        "lng": "-5.285362648757156"
       }
     }
   ]

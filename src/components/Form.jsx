@@ -82,8 +82,10 @@ function Form() {
     e.preventDefault();
 
     if (!cityName || !country) return;
+    
     const newCity = {
       cityName,
+      country,
       date,
       notes,
       emoji,

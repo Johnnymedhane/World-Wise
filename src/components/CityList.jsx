@@ -10,7 +10,9 @@ import { useCities } from '../contexts/CitiesContext';
 
 
 function CityList() {
+
     const { cities, isLoading } = useCities();
+    
     if (isLoading) return <Spinner />;
     if ( !cities.length) return <Message message="Add your city by clicking on a city on the map"/>;
     

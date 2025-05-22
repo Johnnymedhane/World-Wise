@@ -24,3 +24,24 @@
   flex-direction: column;
   gap: 0.5rem;
 }
+
+@media  screen and (max-width: 768px) {
+  .login {
+    padding: 2rem;
+   margin-top: 30px;
+    min-height: 100vh;
+    background-color: var(--color-dark--1);
+  
+  }
+
+  .form {
+    width: 100%;
+    padding:6rem 2rem;
+    margin-top: 30%;
+    border-radius: 10px;
+    
+  }
+  
+}
+
+
