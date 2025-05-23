@@ -1,5 +1,6 @@
 .nav {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: space-between;
 }
@@ -40,7 +41,7 @@ a.ctaLink:visited {
 
  
   .hamburger {
-   background: var(--color-dark--1);
+   background: transparent;
    padding: 6px;
   
     cursor: pointer;
@@ -75,8 +76,8 @@ a.ctaLink:visited {
   display: flex; /* Show menu when active */
   flex-direction: column;
   position: absolute;
-  right: 15px;
-  top: 10rem;
+  right: -15px;
+ top: 110%;
   background-color: var(--color-dark--1);
   padding: 2rem;
   border-radius: 7px;
@@ -84,6 +85,7 @@ a.ctaLink:visited {
   animation: menu 1s ease-in-out alternate;
   transform-origin: right;
 }
+
 }
 
 @keyframes menu {

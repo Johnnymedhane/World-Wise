@@ -37,8 +37,9 @@
 
 @media screen and (max-width: 480px) {
   .user {
-    top: 55%;
+    top: 60%;
     right: 2rem;
+    gap: 1rem;
   }
   
 }

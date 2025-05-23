@@ -1,16 +1,36 @@
 import { NavLink } from "react-router-dom"
 import styles from "./PageNav.module.css"
 import Logo from "./Logo"
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import DarkeModeBtn from "./DarkeModeBtn";
 
 function PageNav() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    
+ 
+
+    useEffect(() => {
+        const handleKeyDown = (event) => {
+            if (event.key === "Escape") {
+                setIsMenuOpen(false);
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+
+        return () => {
+            window.removeEventListener("keydown", handleKeyDown);
+        };
+    }, []);
+
+    
     
       function toggleMenu() {
     setIsMenuOpen((prev) => !prev);
   }
     return (
-        <div>
+        <div className={styles.container}>
             <nav className={styles.nav}>
                 <Logo />
                 <div className={`${styles.hamburger} ${isMenuOpen ? styles.active : ""}`} 
@@ -36,6 +56,7 @@ function PageNav() {
 
                 </ul>
             </nav>
+         <DarkeModeBtn />
         </div>
     )
 }

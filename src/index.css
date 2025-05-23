@@ -80,9 +80,11 @@ input:focus {
   },
 */
 
-.test{
-  background-color: var(--color-brand--2);
+.fake-dark-mode {
+  filter: invert(100%);
+  transition: all 0.8s;
 }
+
 
 
 
@@ -100,5 +102,13 @@ input:focus {
   textarea {
     font-size: 1.4rem;
   }
+
+  .btn-fake-dark-mode {
+    font-size: 20px;
+    padding: 8px;
+   /* right: 90%; */
+  }
+
+  }
   
-}
+

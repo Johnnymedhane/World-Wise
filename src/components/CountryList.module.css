@@ -10,11 +10,12 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .countriesList {
     grid-template-columns: 1fr;
     height: 30vh;
     overflow: scroll;
+    padding: 0 8rem;
   }
   
 }

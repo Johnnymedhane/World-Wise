@@ -61,8 +61,7 @@
 @media screen and (max-width: 768px) {
   .product {
     margin: 1rem;
-    padding: 1rem;
-   
+    padding: 2rem;
     min-height: 100vh;
   }
   .product section {
@@ -84,7 +83,7 @@
 @media screen and (max-width:480px) {
   .product {
     margin: 0;
-    padding: 1rem;
+    padding: 2rem;
     min-height:calc(100vh - 5rem);
   }
   .product section {
