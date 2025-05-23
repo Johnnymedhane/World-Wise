@@ -1,22 +1,26 @@
 import { useEffect, useState } from "react";
 import styles from "./DarkeModeBtn.module.css"
 function DarkeModeBtn() {
+    function handleClick() {
+        setIsFakeDark((isFakeDark) => !isFakeDark);
+    }
 
 
     const [isFakeDark, setIsFakeDark] = useState(false);
 
-     useEffect(
-        function () {
-          document.documentElement.classList.toggle("fake-dark-mode");
-        },
-        [isFakeDark]
-    );
-    
+    useEffect(() => {
+        if (isFakeDark) {
+            document.documentElement.classList.add("fake-dark-mode");
+        } else {
+            document.documentElement.classList.remove("fake-dark-mode");
+        }
+        
+    }, [isFakeDark]);
+
     return (
         <button
-            onClick={() => setIsFakeDark((isFakeDark) => !isFakeDark)}
-            className={styles.btnDarkMode}
-        >
+            onClick={handleClick}
+            className={styles.btnDarkMode}>
             {isFakeDark ? "☀️" : "🌙"}
         </button>
     );

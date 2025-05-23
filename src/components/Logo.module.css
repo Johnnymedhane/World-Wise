@@ -9,7 +9,9 @@
 @media screen and (max-width: 768px) {
   .logo {
    
-    margin-right: 5rem;
+    height: 6rem;
+    aspect-ratio: 4/1;
+    margin: 0 auto;
   }
   
 }
