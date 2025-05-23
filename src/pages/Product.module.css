@@ -83,7 +83,7 @@
 @media screen and (max-width:480px) {
   .product {
     margin: 0;
-    padding: 2rem;
+    padding: 1.5rem;
     min-height: 100vh;
   }
   .product section {
