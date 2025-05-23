@@ -56,7 +56,7 @@ function PageNav() {
 
                 </ul>
             </nav>
-         <DarkeModeBtn />
+        
         </div>
     )
 }
