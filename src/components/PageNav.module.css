@@ -82,20 +82,24 @@ a.ctaLink:visited {
   padding: 2rem;
   border-radius: 7px;
   box-shadow: 0 0.8rem 2.4rem rgba(36, 42, 46, 0.5);
-  animation: menu 1s ease-in-out alternate;
+  animation: menu 1s ease-in-out forwards;
   transform-origin: right;
+  transform: scaleX(0);
+  
 }
 
 }
 
 @keyframes menu {
-  0% {
-    transform: scaleX(0);
-    opacity: 0; 
+from {
+    transform:  scaleX(0);
+    right: -15px;
+   
   }
-  100% {
-    transform: scaleX(1);
-    opacity: 1;
+  to {
+    transform:  scaleX(1);
+    right: 0;
+
   }
 
 
