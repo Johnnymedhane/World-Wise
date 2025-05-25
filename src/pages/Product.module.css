@@ -60,9 +60,9 @@
 
 @media screen and (max-width: 768px) {
   .product {
-    margin: 1rem;
+    margin: 0;
     padding: 2rem;
-    min-height: 100vh;
+    height: 100vh;
   }
   .product section {
     width: 100%;
@@ -81,11 +81,7 @@
 }
 
 @media screen and (max-width:480px) {
-  .product {
-    margin: 0;
-    padding: 1.5rem;
-    min-height: 100vh;
-  }
+  
   .product section {
     width: 100%;
     margin: 3rem auto;
