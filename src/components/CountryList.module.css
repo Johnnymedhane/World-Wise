@@ -7,12 +7,22 @@
   grid-template-columns: 1fr 1fr ;
   align-content: start;
   gap: 1.6rem;
+  animation: countries 1s ease-out forwards;
 }
-
+@keyframes countries {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 @media screen and (max-width: 480px) {
   .countriesList {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     height: 30vh;
     overflow: scroll;
     padding: 0 8rem;
