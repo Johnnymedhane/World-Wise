@@ -39,8 +39,7 @@ function PageNav() {
                     <span className={styles.line}></span>
                     <span className={styles.line}></span>
                 </div>
-                
-              <DarkeModeBtn />
+
 
             <ul  className={`${isMenuOpen ? styles.active : ""}`}>
                

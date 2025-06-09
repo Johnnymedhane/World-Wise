@@ -39,7 +39,10 @@ a.ctaLink:visited {
 
 @media screen and (max-width: 768px) {
 
-
+.nav {
+  flex-basis: auto 1fr 1fr;
+  padding: 5px 0;
+}
   .hamburger {
    background: transparent;
    padding: 6px;
