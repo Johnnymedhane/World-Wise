@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Homepage.module.css";
 import PageNav from "../components/PageNav";
-import DarkeModeBtn from "../components/DarkeModeBtn";
 
 
 export default function Homepage() {
@@ -9,7 +8,6 @@ export default function Homepage() {
     <main className={styles.homepage}>
 
       <PageNav />
-      <DarkeModeBtn />
       <section>
         <h1>
           You travel the world.
