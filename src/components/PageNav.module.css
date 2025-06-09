@@ -85,6 +85,7 @@ a.ctaLink:visited {
   animation: menu 1s ease-in-out forwards;
   transform-origin: right;
   transform: scaleX(0);
+  z-index: 1000;
   
 }
 
