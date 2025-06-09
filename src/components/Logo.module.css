@@ -1,17 +1,14 @@
 .logo {
   height: 5.2rem;
  aspect-ratio: 4/1;
- 
   cursor: pointer;
 }
 
 
 @media screen and (max-width: 768px) {
+ 
   .logo {
+    height: 5rem;
    
-    height: 6rem;
-    aspect-ratio: 4/1;
-    margin: 0 auto;
   }
-  
 }

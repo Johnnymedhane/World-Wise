@@ -17,13 +17,12 @@
     @media screen and (max-width: 768px) {
         .btnDarkMode{
           position: absolute;
-          right: 20%;
+          right: 13%;
             padding: 10px;
             line-height: 1;
             font-size: 26px;
             background-color: transparent;
-            border-radius: 5px;
+
           }
-          
-    
+
     }
