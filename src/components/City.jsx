@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { memo, useEffect } from "react";
 import {  useParams } from "react-router-dom";
 import { useCities } from "../contexts/CitiesContext";
 import styles from "./City.module.css";
@@ -14,7 +14,7 @@ const formatDate = (date) =>
     weekday: "long",
   }).format(new Date(date));
 
-function City() {
+const City = memo(function City() {
   const { id } = useParams();
   
   const { getCity, currentCity, isLoading } = useCities();
@@ -22,9 +22,9 @@ function City() {
  
   useEffect(function () {
     getCity(id);
-  },[id, getCity]);
+  }, [id, getCity]);
 
-  const { cityName,  date, notes, emoji  } = currentCity;
+  const { cityName, date, notes, emoji } = currentCity;
 
   
   if (isLoading) return <Spinner />;
@@ -60,14 +60,14 @@ function City() {
           Check out {cityName} on Wikipedia &rarr;
 
         </a>
-      <div>
-       <BackButton />
-      </div>
+        <div>
+          <BackButton />
+        </div>
 
         
       </div>
     </div>
   );
-}
+});
 
 export default City;

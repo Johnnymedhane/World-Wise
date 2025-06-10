@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom"
 import styles from "./PageNav.module.css"
 import Logo from "./Logo"
 import { useEffect, useState } from "react"
-import DarkeModeBtn from "./DarkeModeBtn";
 
 function PageNav() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
