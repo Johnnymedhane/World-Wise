@@ -2,7 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useReducer } from "r
 
 
 //  const BASE_URL = "http://localhost:8000";
-const BASE_URL = "https://worldwise-backend-mnr7.onrender.com";
+const BASE_URL = "https://worldwise-backend-ty0s.onrender.com";
 
 
 const citiesContext = createContext();
